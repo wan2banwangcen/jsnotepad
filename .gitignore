@@ -1,5 +1,6 @@
 # dist grunt output directory
 dist/
+node_modules/
 
 # Logs
 logs
