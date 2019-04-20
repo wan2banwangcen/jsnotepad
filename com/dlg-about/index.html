@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>关于对话框布局和测试页面</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/dlg-common.css">
+  <link rel="stylesheet" href="dlg-about.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+</head>
+<body>
+<input class="popup" type="button" value="弹出对话框">
+<!--
+<div class="notepad-goto-dlg">
+  <div class="dialogbox">
+    <div class="titlebar">
+      <p class="title">关于“记事本”</p>
+      <span class="btn-close">✖</span>
+    </div>
+    <div class="main">
+      <h1 class="slogan">JSNotepad</h1>
+      <hr>
+      <img class="logo" src="../images/notepad-icon-32.png" alt="JSNotepad">
+      <div class="info">
+        <p>作者：王岑</p>
+        <p>QQ：71596415</p>
+        <p>仓库地址：<a href="https://github.com/wan2banwangcen/spa-demo" target="_blank">https://github.com/wan2banwangcen/spa-demo</a></p>
+      </div>
+      <input class="btn-ok" type="button" value="确定">
+    </div>
+  </div>
+</div>
+-->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="dlg-about.js"></script>
+<script>
+$(function(){
+    var $btnPopup = $('input.popup');
+    $btnPopup.click(function(){
+      $dlgAbout.init();
+    });
+});
+</script>
+</body>
+</html>
