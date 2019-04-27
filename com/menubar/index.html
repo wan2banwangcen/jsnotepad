@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>菜单栏组件测试页面</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+<!---
+<div class="notepad-menubar">
+  <ul class="title">
+    <li class="menu-title">文件(F)</li>
+    <li class="menu-title">编辑(E)</li>
+    <li class="menu-title">格式(O)</li>
+    <li class="menu-title">查看(V)</li>
+    <li class="menu-title">帮助(H)</li>
+  </ul>
+  <ul class="menus">
+    <li class="menu-item">新建(N)<span class="shortcut">Ctrl+N</span></li>
+    <li class="menu-item">打开(O)</li>
+    <li class="menu-item disabled" disabled>保存(S)</li>
+    <li class="menu-item">另存为(A)</li>
+    <li class="menu-hr"></li>
+    <li class="menu-item">页面设置(U)</li>
+    <li class="menu-item">打印(P)</li>
+    <li class="menu-hr"></li>
+    <li class="menu-item">退出(X)</li>
+  </ul>
+</div>
+-->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="menu.js"></script>
+<script src="menu-data.js"></script>
+<script>
+$(function(){
+    $menubar.show(window.menuData);
+});
+</script>
+</body>
+</html>
